@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KitMediatorCV_Tests' do
+  pod 'KitMediatorCV', :path => '../'
+  
+  
+end
