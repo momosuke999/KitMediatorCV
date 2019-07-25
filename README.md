@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # KitMediatorCV
 
 [![CI Status](https://img.shields.io/travis/cw933114@ohio.edu/KitMediatorCV.svg?style=flat)](https://travis-ci.org/cw933114@ohio.edu/KitMediatorCV)
@@ -27,3 +28,6 @@ cw933114@ohio.edu, zhanghao@chaoxing.com
 ## License
 
 KitMediatorCV is available under the MIT license. See the LICENSE file for more info.
+=======
+# KitMediatorCV
+>>>>>>> 0b0e351896fa19ccbdf06cf5ac30a770d90f2c51
