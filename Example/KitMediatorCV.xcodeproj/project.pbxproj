@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D8A8317A9515D1FA76B4309 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3BBAA6040B750901C877AF04 /* KitMediatorCV.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KitMediatorCV.podspec; path = ../KitMediatorCV.podspec; sourceTree = "<group>"; };
+		0D8A8317A9515D1FA76B4309 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3BBAA6040B750901C877AF04 /* KitMediatorCV.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KitMediatorCV.podspec; path = ../KitMediatorCV.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -30,7 +30,7 @@
 		889980726BA322D0076575D4 /* Pods-KitMediatorCV_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitMediatorCV_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KitMediatorCV_Tests/Pods-KitMediatorCV_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C5148E9CF2E64BF32BB4E8C /* Pods_KitMediatorCV_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KitMediatorCV_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33D0459519D2F74AEF7824B /* Pods-KitMediatorCV_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KitMediatorCV_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KitMediatorCV_Tests/Pods-KitMediatorCV_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E3E421E0CBBFC1AA833060F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E3E421E0CBBFC1AA833060F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,11 +191,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KitMediatorCV_Tests/Pods-KitMediatorCV_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/KitMediatorCV/KitMediatorCV.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KitMediatorCV.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,29 @@
+PODS:
+  - CTMediator (25)
+  - KitMediatorCV (0.1.0):
+    - CTMediator
+    - SDWebImage
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+
+DEPENDENCIES:
+  - KitMediatorCV (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  KitMediatorCV:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  KitMediatorCV: 04a1e2ea4595359bf6468a47da7cc290b661942c
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+
+PODFILE CHECKSUM: be3b03215f93d911a14353f58518d2e50c365887
+
+COCOAPODS: 1.5.3

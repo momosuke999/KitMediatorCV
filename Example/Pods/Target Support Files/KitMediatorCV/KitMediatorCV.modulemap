@@ -1,0 +1,6 @@
+framework module KitMediatorCV {
+  umbrella header "KitMediatorCV-umbrella.h"
+
+  export *
+  module * { export * }
+}
